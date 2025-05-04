@@ -21,3 +21,39 @@ header h1{
     padding: 2rem 3rem;
     color: rgb(36, 34, 34);
 }
+
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+#botonIncrementar{
+    background-color: red;
+}
+
+#botonDescender{
+    background-color: rgb(56, 108, 168);
+}
+
+#contador{
+    font-size: 48px; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Centrar el texto */
+    margin: 20px auto; /* Espaciado alrededor y centrado horizontal */
+    width: 100px; /* Ancho fijo para centrar */
+    background-color: #f0f0f0; /* Fondo claro */
+    border: 2px solid #ccc; /* Borde alrededor */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto visual */
+}
