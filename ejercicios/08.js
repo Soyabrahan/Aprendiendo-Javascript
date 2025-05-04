@@ -8,11 +8,12 @@ let arreglo = [
 ];
 
 function ArregloObjetos(arr){
-
-    for (numero of arr){
-        console.log(numero,arr)
-    }
-
+let pares = [];
+for(idx in arr){
+    let elemento = arr[idx];
+    pares[idx] = [elemento.id,elemento]
+}
+return pares;
 };
 
 console.log(ArregloObjetos(arreglo));

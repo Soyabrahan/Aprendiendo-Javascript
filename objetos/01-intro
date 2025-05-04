@@ -1,0 +1,18 @@
+/*
+Aqui estamos creando un objeto usuario que tenga como atributos 
+correo,nombre,direccion,activo,recuperarClave.
+*/
+
+
+let user = {
+    email : "abrahan2410@gmail.com",
+    name : "Abrahan",
+    direccion: {
+        calle : "Queen",
+        numero : 10,
+    },
+    activo : true,
+    recuperarClave : function (){
+        console.log("recuperando clave.....")
+    }
+};
