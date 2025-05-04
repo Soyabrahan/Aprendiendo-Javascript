@@ -12,5 +12,19 @@ function incrementar(){
  //la funcion se llamara cuando se presione el boton aumentara la variable conteo y se igualara en el html
 }
 
-botonIncremento.addEventListener('click',incrementar());
-valorContador.textContent = conteo;
+function reducir(){
+    conteo--;
+    valorContador.textContent = conteo;
+    //Esta funcion se llamara cuando se presione el boton
+}
+
+function reiniciar(){
+    conteo = 0;
+    valorContador.textContent = conteo;
+}
+
+botonIncremento.addEventListener('click',incrementar);
+
+botonDescender.addEventListener('click',reducir);
+
+botonReiniciar.addEventListener('click',reiniciar);
